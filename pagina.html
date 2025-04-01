@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración de caracteres y título de la página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML</title>
+    <!-- Enlace a una hoja de estilos externa -->
+    <link rel="stylesheet" href="styles.css"> <!--hoja de estilos externa: existen 3 maneras de ponerle estilo:
+    a la etiqueta
+creando un archivo externo
+o en el mismo archivo html con la etiqueta <style> </style> --> 
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header> <!--hoja de estilos externa -->
+        <h1>circo del 424</h1>
+        <div id="contenedor">
+            <div id="contenido">
+               <img src="https://ipet424.edu.ar/aula1/pluginfile.php/1/theme_moove/logo/1695729779/logo.jpeg" alt="la peor escuela de traslasierra" width="225" height="225" />
+            </div>
+            <iframe width="445" height="243" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=445&amp;height=243&amp;hl=en&amp;q=IPET%20424%20Villa%20Dolores%20Villa%20Dolores+(Circo%20424)&amp;t=k&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-generator.com/es'>maps-generator.com/es</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=5f00caf9e4539f64866d234d0532250afe4774a9'></script>
+        </div>
+        <nav>
+            <ul><!-- lista desordenada -->
+                <li><a href="#">Inicio</a></li> <!-- item de la lista -->
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal de contenido -->
+    <main>
+        <section>
+            <h2>Bienvenido</h2>
+            <p>esta escuela es la unica que no tiene directivos responsables lo que nos lleva a una escuela sin ningun tipo de mantenimiento.</p>
+        </section>
+        <section>
+            <h2>Lista de elementos</h2>
+
+            <ul> <!-- lista desordenada -->
+                <li>unica escuela precursora que tiene pileta olimpica en su techos</li> <!-- item -->
+                <li>nunca faltara el sabor a paloma muerta en tu agua</li>
+                <li>si quieres un ambiente higienico no te recomendamos tomar clases en este lindo ambiente</li>
+            </ul>
+
+        </section>
+        <section>
+
+            <h2>Tabla de datos</h2>
+            
+            <table > <!-- defino la tabla y le asigno un borde (css) -->
+                <thead> <!-- encabezado de mi tabla -->
+                    <tr> <!-- filas de mi tabla -->
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody> <!-- cuerpo de mi tabla-->
+                    <tr> 
+                        <td>Dato 1</td> <!-- datos de mi tabla-->
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <br>
+        <h2>Dudas y/o consultas: </h2>
+    <form class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</main>
+
+<aside>
+    <h3>Información adicional</h3>
+    <p>Este es un contenido complementario a la página.</p>
+</aside>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Inclusión de un script externo -->
+    <script src="script.js"></script>
+        <!-- Barra lateral -->
+
+    <!-- formulario -->
+</body>
+</html>
